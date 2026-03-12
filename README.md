@@ -22,6 +22,9 @@ JavaScript
 • Backend API  
 • Database storage
 
+## Live Demo
+https://muniverse-app.netlify.app
+
 ## Screenshots
 
 ### Feed
