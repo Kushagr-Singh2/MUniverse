@@ -25,10 +25,10 @@ JavaScript
 ## Screenshots
 
 ### Feed
-![Feed](screenshots/feed.png)
+![Feed](Screenshots/feed.png)
 
 ### Comment System
-![Comments](screenshots/comments.png)
+![Comments](Screenshots/comments.png)
 
 ### Post Actions
-![Actions](screenshots/actions.png)
+![Actions](Screenshots/actions.png)
