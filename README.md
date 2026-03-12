@@ -21,3 +21,14 @@ JavaScript
 • React conversion  
 • Backend API  
 • Database storage
+
+## Screenshots
+
+### Feed
+![Feed](screenshots/feed.png)
+
+### Comment System
+![Comments](screenshots/comments.png)
+
+### Post Actions
+![Actions](screenshots/actions.png)
