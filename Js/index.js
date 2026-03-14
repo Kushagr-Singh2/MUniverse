@@ -128,6 +128,9 @@ addBtn.addEventListener("click", function (e) {
 
 
 
+
+
+
 if (post.liked) likeBtn.classList.add("liked");
 
 likeBtn.addEventListener("click", function (e) {
@@ -464,4 +467,5 @@ document.addEventListener('click',function(e){
 
 })
 
+renderPosts();
 
