@@ -1,63 +1,60 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>MUniverse</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/index.css">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>MUniverse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
-        <link rel="icon" type="image/png" href="images/sqLogo.png">
-    </head>
-    <body>
-        <nav id="navbar">
-            <a href="index.html" class="logo">
-                
-                <img src="images/sqLogo.png" alt="logo" class="logo-icon">
-                <img src="images/txtLogo.png" alt="MUniverse" class="logo-text">
-              <!--  <span>MUniverse</span> -->
-            
-            
-            </a>
-                <!-- <div class="nav-links">
-                     <a href="#">Home</a>
-                     <a href="#">Profile</a>
-                 </div> -->
+</head>
+<body>
+<div class="page-glow"></div>
+<nav id="navbar">
+  <a href="index.html" class="logo">
+    <img id="sqLogoImg" src="images/sqLogo.png" alt="logo" class="logo-icon">
+    <img id="txtLogoImg" src="images/txtLogo.png" alt="MUniverse" class="logo-text">
+  </a>
+  <div class="nav-right">
+    <div id="openSidebar">👨</div>
+  </div>
+</nav>
 
-                <div class="nav-right">
-                    <div class="profile-icon"  id="openSidebar">👨</div>
-                </div>
+<div class="container">
+  <div class="create-post">
+    <div class="create-top">
+      <div class="avatar" id="createAvatar">?</div>
+      <div class="create-label" id="createLabel">What's on your mind?</div>
+    </div>
+    <textarea id="postInput" placeholder="Share something with Manipal..."></textarea>
+    <div class="create-bottom">
+      <button id="postBtn">Post it ✦</button>
+    </div>
+  </div>
 
+  <div class="feed-label">
+    <span>Recent Posts</span>
+    <div class="feed-label-line"></div>
+  </div>
+  <div id="feed"></div>
+</div>
 
+<div id="sidebar">
+  <div class="sidebar-user">
+    <div class="sidebar-avatar" id="sidebarAvatar">?</div>
+    <div>
+      <div class="sidebar-name" id="sidebarName">...</div>
+      <div class="sidebar-uni">Manipal University Jaipur</div>
+    </div>
+  </div>
+  <div class="sidebar-item"><span class="si-icon">👤</span> View Profile</div>
+  <div class="sidebar-item"><span class="si-icon">⚙️</span> Settings</div>
+  <div class="sidebar-item" id="logoutBtn"><span class="si-icon">🚪</span> Logout</div>
+</div>
 
-        </nav>
-        <div class="container">
-            <div class="create-post">
-               <h2> Create a Post</h2>
-             <div class="post-row">
-                <!-- <input type="text" id="postInput" placeholder="What's on your mind?"> -->
-                 <textarea id="postInput" placeholder="What's on your mind?"></textarea>
-                <button id="postBtn">Post</button>
-             </div>
-            </div>
-            <h3 class="feed-title">Posts you'll Like</h3>
-            <div id="feed">
+<div id="toast"></div>
 
-             
-
-            </div>
-
-        </div>
-        <div class="sidebar" id="sidebar">
-            <div class="sidebar-header">
-                <!-- <span>Menu</span> -->
-                
-                <!-- <button id="closeSidebar">✖</button> -->
-            </div>
-        
-            <div class="sidebar-item">View Profile</div>
-            <div class="sidebar-item">Settings</div>
-            <div class="sidebar-item">Logout</div>
-        </div>
-        <script src="Js/index.js"></script>
-    </body>
-
+<script src="js/index.js"></script>
+</body>
 </html>
